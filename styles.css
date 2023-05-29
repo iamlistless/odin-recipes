@@ -1,0 +1,29 @@
+.index {
+    background-color: gainsboro;
+    color:darkblue;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+.index.recipe-list {
+    display: inline-block;
+    text-align: left;
+}
+
+.grilled-chicken-adobo {
+    background-color: brown;
+    color: black;
+    font-family: Papyrus, sans-serif;
+}
+
+.spicy-korean-noodle-soup {
+    background-color: red;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mango-pancakes {
+    background-color: yellow;
+    color: white;
+    font-family: "Lucida Handwriting", sans-serif;
+}
