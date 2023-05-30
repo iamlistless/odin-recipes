@@ -1,29 +1,54 @@
-.index {
+.index.body {
     background-color: gainsboro;
     color:darkblue;
     font-family: Verdana, sans-serif;
     text-align: center;
 }
 
-.index.recipe-list {
-    display: inline-block;
-    text-align: left;
+.index.content {
+    background-color: white;
+    padding: 8px;
+    margin: 24.5px;
 }
 
+.index.h1 {
+    background-color: lightgray;
+    margin-top: 0;
+    margin-bottom: 8px;
+    padding: 15.75px;
+}
+
+.index.recipe-list.one,
+.index.recipe-list.two,
+.index.recipe-list.three {
+    display:block;
+    margin-top: 0;
+    margin-bottom: 8px;
+    /* padding: 8px; */
+}
+
+.index.recipe-list.one,
 .grilled-chicken-adobo {
     background-color: brown;
     color: black;
     font-family: Papyrus, sans-serif;
+    padding: 2.75px;
 }
 
+.index.recipe-list.two,
 .spicy-korean-noodle-soup {
     background-color: red;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 5.75px;
 }
 
+.index.recipe-list.three,
 .mango-pancakes {
     background-color: yellow;
     color: white;
-    font-family: "Lucida Handwriting", sans-serif;
+    font-family: "Brush Script MT", sans-serif;
+    font-size: 24px;
+    margin-bottom: 0;
+    padding: 0.25px;
 }
